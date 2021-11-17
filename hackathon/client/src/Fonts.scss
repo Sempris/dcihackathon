@@ -1,0 +1,13 @@
+@import "../node_modules/sass-google-fonts/src/GoogleFonts.scss";
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url('./fonts/GlacialIndifference-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Glacial Bold';
+    src: url('./fonts/GlacialIndifference-Bold.otf');
+}
+
+@include google-font( 'Abril Fatface' );
+@include google-font( 'Bangers' );

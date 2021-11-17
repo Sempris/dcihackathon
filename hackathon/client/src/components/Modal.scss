@@ -1,0 +1,32 @@
+@import '../Colors.scss';
+
+.modal {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    height: 100vh;
+    z-index: 11;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        background-color: $aqua;
+    }
+    h2 {
+        color: $brown;
+    }
+    button {
+        width: 50%;
+        margin: 10px auto;
+        border-radius: 10px;
+        border: 1px solid grey;
+        padding: 10px;
+        outline: none;
+    }
+    button:hover {
+        cursor: pointer;
+        box-shadow: 0 0 10px grey;
+    }
+}

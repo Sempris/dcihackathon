@@ -1,0 +1,181 @@
+@import '../Colors.scss';
+@import '../Fonts.scss';
+
+.container {
+    padding: 0;
+
+    .row {
+        padding: 0;
+        border: 3px solid $brown;
+        margin: 20px 0;
+        box-shadow: 0 0 10px $brown;
+
+        .description {
+            margin: auto;
+
+            h4 {
+                text-align: left;
+                margin: 20px;
+                font-size: 1.5rem;
+                font-family: 'Abril Fatface';
+
+                @media (min-width: 768px) {
+                    font-size: 2rem;
+                }
+                @media (min-width: 992px) {
+                    font-size: 2.5rem;
+                }
+            }
+
+            p {
+                text-align: left;
+                margin: 20px;
+                font-size: 1.1rem;
+
+                @media (min-width: 768px) {
+                    font-size: 1.2rem;
+                }
+                @media (min-width: 992px) {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .desc {
+                text-align: left;
+                font-size: 1rem;
+            }
+        }
+
+        .buttons {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                margin: 20px;
+            }
+
+            .plus {
+                background-color: $aqua;
+                border: 1px solid $brown;
+                border-radius: 50% 50% 0 0;
+            }
+
+            .minus {
+                background-color: $red;
+                border: 1px solid $brown;
+                border-radius: 0 0 50% 50%;
+                padding-bottom: 12px;
+            }
+
+            .plus, .minus {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                width: 60px;
+                height: 50px;
+                font-size: 3.5rem;
+                font-family: 'Arial';
+                font-weight: 900;
+
+                @media (max-width: 768px) {
+                    display: none;
+                }
+
+                @media (min-width: 992px) {
+                    font-size: 5rem;
+                    width: 90px;
+                    height: 75px;
+                }
+            }
+
+            .plus-mobile {
+                background-color: $aqua;
+            }
+            .minus-mobile {
+                background-color: $red;
+            }
+            .plus-mobile, .minus-mobile {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 2rem;
+                font-family: 'Arial';
+                font-weight: 900;
+                width: 60px;
+                height: 60px;
+                border-radius: 20px;
+                border: 1px solid $brown;
+                @media (min-width: 768px) {
+                    display: none;
+                }
+            }
+
+
+            .counter {
+                margin: auto 20px;
+                flex-grow: 0;
+                flex-shrink: 0;
+                flex-basis: 80px;
+                font-weight: 900;
+                font-size: 3rem;
+                vertical-align: middle;
+            }
+        }
+
+        .picture {
+            padding: 0;
+        }
+
+        .picture img {
+            height: 250px;
+            object-fit: cover;
+            box-shadow: 0 0 10px $brown;
+        }
+    }
+}
+
+.heartContainer {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+        z-index: 10;
+        color: white;
+        font-weight: bold;
+        font-size: large;
+        position: relative;
+        padding-bottom: 10px;
+    }
+}
+  
+  .heartContainer::before, .heartContainer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 26px;
+    height: 40px;
+    border-radius: 25px 25px 0 0;
+    background: $red;
+}
+  
+.heartContainer::before {
+    left: 25px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.heartContainer::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}

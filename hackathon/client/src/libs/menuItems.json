@@ -1,0 +1,124 @@
+[{
+    "title": "Knight Rider",
+    "subtitle": "Classic American Burger",
+    "description": "Certified Angus Beef, American cheese, lettuce, tomatoes, red onions, pickles",
+    "price": 8.45,
+    "type": "burger",
+    "img": "./img/burger.jpg",
+    "likes": 114
+},
+{
+    "title": "Miami Vice",
+    "subtitle": "Bacon Cheddar Burger",
+    "description": "Certified Angus Beef, aged cheddar cheese, applewood smoked bacon lettuce, tomatoes",
+    "price": 9.95,
+    "type": "burger",
+    "img": "./img/burger2.jpg",
+    "likes": 64
+},
+{
+    "title": "Die Hard",
+    "subtitle": "Hot & Spicy Burger",
+    "description": "Certified Angus Beef, Pepper jack, cheese, jalapenos, guacamole, lettuce, red onions",
+    "price": 8.95,
+    "type": "burger",
+    "img": "./img/burger3.jpg",
+    "likes": 57
+},
+{
+    "title": "Twin Peaks",
+    "subtitle": "Double American Burger",
+    "description": "Double Certified Angus Beef, American cheese, lettuce, tomatoes, red onions, pickles",
+    "price": 10.95,
+    "type": "burger",
+    "img": "./img/burger4.jpg",
+    "likes": 46
+},
+{
+    "title": "Charlie's Angels",
+    "subtitle": "Veggie Burger",
+    "description": "Beyond patty, American cheese, lettuce, tomatoes, alioli, ketchup",
+    "price": 9.25,
+    "type": "burger",
+    "img": "./img/burger5.jpg",
+    "likes": 38
+},
+{
+    "title": "The Good, the Bad and the Ugly",
+    "subtitle": "Classic Wedges",
+    "description": "Crispy golden brown wedges in rosemary, garlic, & olive oil",
+    "price": 3.55,
+    "type": "side",
+    "img": "./img/fries2.jpg",
+    "likes": 142
+},
+
+{
+    "title": "From Paris with Love",
+    "subtitle": "Large French Fries",
+    "description": "Crispy french fries",
+    "price": 3.25,
+    "type": "side",
+    "img": "./img/fries1.jpg",
+    "likes": 138
+},
+{
+    "title": "Dirty Dancing",
+    "subtitle": "Ranch Salad",
+    "description": "BBQ Mixed grill, fresh lettuce, sharp cheddar cheese, tomatoes, applewood smoked bacon, red onions, sesame oil",
+    "price": 9.95,
+    "type": "side",
+    "img": "./img/salad2.jpg",
+    "likes": 89
+},
+{
+    "title": "Green Mile",
+    "subtitle": "Fresh Green Salad",
+    "description": "Mixed greens, fresh lettuce, avocado, tomatoes, red onions, sesame oil, cucumber, Brussels",
+    "price": 9.95,
+    "type": "side",
+    "img": "./img/salad.jpg",
+    "likes": 38
+},
+{
+    "title": "Fatal Attraction",
+    "subtitle": "Milkshake",
+    "description": "Milk, chocolate syrup, chocolate ice cream, vanilla, Cream, butterscotch, caramel sauce, fruit syrup, cookies",
+    "price": 3.25,
+    "type": "other",
+    "img": "./img/mshakesquare.jpg",
+    "likes": 237
+},
+{
+    "title": "American Pie",
+    "subtitle": "Cinnamon apple pie",
+    "description": "Granny smith apple, Cinnamon, golden delicious, lemon juice, egg, sugar, vanilla ice cream, lemon, cinnamon, egg",
+    "price": 3.55,
+    "type": "other",
+    "img": "./img/pie.jpg",
+    "likes": 142
+},
+{
+    "title": "Bottled Water",
+    "price": 1.25,
+    "type": "other",
+    "img": "./img/water.jpg"
+},
+{
+    "title": "Coca Cola",
+    "price": 1.55,
+    "type": "other",
+    "img": "./img/cola.jpg"
+},
+{
+    "title": "Fanta",
+    "price": 1.55,
+    "type": "other",
+    "img": "./img/fanta.jpg"
+},
+{
+    "title": "Sprite",
+    "price": 1.55,
+    "type": "other",
+    "img": "./img/sprite.png"
+}]

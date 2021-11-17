@@ -1,0 +1,122 @@
+@import '../Fonts.scss';
+
+.order {
+    width: 85vw;
+    max-height: 85%;
+    overflow-y: scroll;
+    padding: 50px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    font-family: 'Abril Fatface';
+    box-shadow: 15px 15px 40px black;
+    border-radius: 40px;
+    z-index: 11;
+
+    .buttons {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        @media screen and (max-width: 992px) {
+            width: 90%;
+            flex-direction: column;
+            padding: 10px 0;
+        }
+
+        button {
+            font-size: 2rem;
+            font-family: 'Bangers', sans-serif;
+            font-size: x-large;
+            font-weight: bold;
+            font-style: italic;
+            box-shadow: 0 5px 5px inset white;
+            border: none;
+            border-radius: 15px;
+            padding: 5px 20px;
+            color: #ffbc00;
+
+            @media screen and (max-width: 992px) {
+                font-size: 1.5rem;
+                margin: 10px auto;
+            }
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+            font-size: 1.5rem;
+            margin: 7px 0;
+            padding: 0;
+
+            @media screen and (max-width: 776px) {
+                font-size: 1rem;
+                margin: 3px 0;
+            }
+
+            .insideLi {
+                width: 50%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                @media screen and (max-width: 992px) {
+                    width: 70%;
+                }
+
+                @media screen and (max-width: 776px) {
+                    width: 90%;
+                }
+
+                .leftSide {
+                    width: 50%;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .rightSide {
+                    width: 50%;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                    .right {
+                        margin-right: 20px;
+                    }
+
+                    .iconTrash {
+                        border-radius: 50%;
+                        font-size: .8rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .orderTotal {
+        width: 45%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        font-weight: bold;
+
+        @media screen and (max-width: 776px) {
+            width: 75%;
+            margin: 5px auto;
+            font-size: 1rem;
+
+        }
+    }
+}

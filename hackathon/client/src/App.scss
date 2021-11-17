@@ -1,0 +1,118 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./Colors.scss";
+@import "./Fonts.scss";
+
+body {
+  text-align: center;
+  font-family: 'Glacial Indifference', sans-serif;
+  box-sizing: border-box;
+}
+
+#othersCollapse {
+  img {
+    max-width: 230px;
+  }
+}
+
+.indifferenceFontClose {
+  font-family: 'Glacial Bold','Glacial Indifference', sans-serif !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+}
+
+#shoppingBag {
+  font-size: 4rem;
+  color: $brown;
+  border-radius: 15px 0 0 15px;
+  top: 10vh;
+  right: 0;
+  > svg, > div {
+    position: absolute;
+    top: 10vh;
+    right: 0;
+  }
+  > div {
+    font-size: 2rem;
+    color: $gold;
+    padding: 1rem;
+    width: 3.8rem;
+  }
+  @media (min-width: 996px) {
+    font-size: 6rem;
+    border-radius: 50px 0 0 50px;
+    > div {
+      font-size: 3rem;
+      padding: 1.5rem;
+      width: 5.7rem;
+    }
+  }
+}
+
+#shoppingBag:hover {
+  cursor: pointer;
+}
+
+.color-gold {
+  color: $gold;
+}
+
+.bangers {
+  font-family: 'Bangers', sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  box-shadow: 0 5px 5px inset white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+
+  @media (min-width: 576px) {
+    font-size: x-large;
+  }
+
+  @media (min-width: 768px) {
+    padding: 15px 45px;
+    font-size: xxx-large;
+    border-radius: 45px;
+  }
+}
+
+.container {
+  margin: 20px auto;
+}
+
+.menuLeft {
+  border: 3px solid $brown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px $brown;
+
+  div {
+    @media screen and (max-width: 768px) {
+      margin: auto;
+    }
+  }
+
+  img {
+    height: 200px;
+    width: 350px;
+    box-shadow: 0 0 10px $brown;
+    object-fit: cover;
+
+    @media screen and (max-width: 768px) {
+      height: 175px;
+      width: 150px;
+    }
+  }
+
+  img:last-child {
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  h2 {
+    font-family: "Abril Fatface";
+  }
+}
