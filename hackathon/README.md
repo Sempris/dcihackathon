@@ -1,3 +1,0 @@
-# Repo for the great DCI Hackathon
-
-Under construction...
