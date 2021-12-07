@@ -1,1 +1,1 @@
-# dcihackathon
+# DCI Hackathon
